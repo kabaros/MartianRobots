@@ -1,9 +1,0 @@
-c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\Robot\obj\Debug\ResolveAssemblyReference.cache
-c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\Robot\bin\Debug\Robots.dll
-c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\Robot\bin\Debug\Robots.pdb
-c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\Robot\obj\Debug\Robots.dll
-c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\Robot\obj\Debug\Robots.pdb
-C:\Users\kabaros\Documents\visual studio 2010\Projects\MenFromMars\Robot\bin\Debug\MartianRobots.Exceptions.dll
-C:\Users\kabaros\Documents\visual studio 2010\Projects\MenFromMars\Robot\bin\Debug\MartianRobots.Exceptions.pdb
-C:\Users\kabaros\Documents\visual studio 2010\Projects\MenFromMars\Robot\bin\Debug\MartianRobots.Orientations.dll
-C:\Users\kabaros\Documents\visual studio 2010\Projects\MenFromMars\Robot\bin\Debug\MartianRobots.Orientations.pdb
