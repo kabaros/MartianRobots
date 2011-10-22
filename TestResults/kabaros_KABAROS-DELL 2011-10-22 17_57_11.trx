@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0e172031-d34b-40ed-92f7-2dc760bde489" name="kabaros@KABAROS-DELL 2011-10-22 17:57:11" runUser="kabaros-Dell\kabaros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d6f95e15-0651-4403-91b8-21b86f983d5c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kabaros_KABAROS-DELL 2011-10-22 17_57_11">
+      <DeploymentItem filename="c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\Robot\bin\Debug\Robots.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-22T17:57:11.5979256+01:00" queuing="2011-10-22T17:57:12.5279788+01:00" start="2011-10-22T17:57:12.6529860+01:00" finish="2011-10-22T17:58:48.2784555+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="KABAROS-DELL" outcome="Error" timestamp="2011-10-22T17:58:48.2774554+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestRobots" storage="c:\users\kabaros\documents\visual studio 2010\projects\menfrommars\marstest\bin\debug\marstest.dll" id="5c088620-63e7-0bf0-4a8c-2b4ad903de5b">
+      <Execution id="a88a18ff-719a-4e18-911a-c631a10856a3" />
+      <TestMethod codeBase="c:/users/kabaros/documents/visual studio 2010/Projects/MenFromMars/MarsTest/bin/Debug/MarsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsTest.RobotTests, MarsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRobots" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5c088620-63e7-0bf0-4a8c-2b4ad903de5b" executionId="a88a18ff-719a-4e18-911a-c631a10856a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a88a18ff-719a-4e18-911a-c631a10856a3" testId="5c088620-63e7-0bf0-4a8c-2b4ad903de5b" testName="TestRobots" computerName="KABAROS-DELL" duration="00:01:35.5124630" startTime="2011-10-22T17:57:12.7659925+01:00" endTime="2011-10-22T17:58:48.2784555+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a88a18ff-719a-4e18-911a-c631a10856a3">
+    </UnitTestResult>
+  </Results>
+</TestRun>
