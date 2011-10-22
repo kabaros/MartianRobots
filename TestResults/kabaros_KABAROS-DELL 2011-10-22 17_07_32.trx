@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e973f071-60f5-481d-a069-047ca7143b77" name="kabaros@KABAROS-DELL 2011-10-22 17:07:32" runUser="kabaros-Dell\kabaros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d6f95e15-0651-4403-91b8-21b86f983d5c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kabaros_KABAROS-DELL 2011-10-22 17_07_32">
+      <DeploymentItem filename="c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\Robot\bin\Debug\Robots.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-22T17:07:32.4055256+01:00" queuing="2011-10-22T17:07:33.5625918+01:00" start="2011-10-22T17:07:33.6815986+01:00" finish="2011-10-22T17:08:15.3609825+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="2" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="KABAROS-DELL" outcome="Error" timestamp="2011-10-22T17:08:15.3529820+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMovingLeftAndRight" storage="c:\users\kabaros\documents\visual studio 2010\projects\menfrommars\marstest\bin\debug\marstest.dll" id="fcb59a97-6b5c-6347-0cbf-9764a1e243aa">
+      <Execution id="ce765416-ab4f-4369-8d57-efc7717a79fa" />
+      <TestMethod codeBase="c:/users/kabaros/documents/visual studio 2010/Projects/MenFromMars/MarsTest/bin/Debug/MarsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsTest.OrientationsTest, MarsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMovingLeftAndRight" />
+    </UnitTest>
+    <UnitTest name="TestRobots" storage="c:\users\kabaros\documents\visual studio 2010\projects\menfrommars\marstest\bin\debug\marstest.dll" id="6a4367a7-6666-d26f-0895-0bbd5298bbe0">
+      <Execution id="c10bff62-c42b-4600-b634-82db49b97592" />
+      <TestMethod codeBase="c:/users/kabaros/documents/visual studio 2010/Projects/MenFromMars/MarsTest/bin/Debug/MarsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsTest.Robot, MarsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRobots" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6a4367a7-6666-d26f-0895-0bbd5298bbe0" executionId="c10bff62-c42b-4600-b634-82db49b97592" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fcb59a97-6b5c-6347-0cbf-9764a1e243aa" executionId="ce765416-ab4f-4369-8d57-efc7717a79fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c10bff62-c42b-4600-b634-82db49b97592" testId="6a4367a7-6666-d26f-0895-0bbd5298bbe0" testName="TestRobots" computerName="KABAROS-DELL" duration="00:00:41.5613772" startTime="2011-10-22T17:07:33.7976052+01:00" endTime="2011-10-22T17:08:15.3589824+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c10bff62-c42b-4600-b634-82db49b97592">
+    </UnitTestResult>
+    <UnitTestResult executionId="ce765416-ab4f-4369-8d57-efc7717a79fa" testId="fcb59a97-6b5c-6347-0cbf-9764a1e243aa" testName="TestMovingLeftAndRight" computerName="KABAROS-DELL" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce765416-ab4f-4369-8d57-efc7717a79fa">
+    </UnitTestResult>
+  </Results>
+</TestRun>

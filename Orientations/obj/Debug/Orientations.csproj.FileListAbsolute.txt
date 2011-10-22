@@ -1,0 +1,5 @@
+C:\Users\kabaros\Documents\Visual Studio 2010\Projects\MenFromMars\Orientations\bin\Debug\MartianRobots.Orientations.dll
+C:\Users\kabaros\Documents\Visual Studio 2010\Projects\MenFromMars\Orientations\bin\Debug\MartianRobots.Orientations.pdb
+C:\Users\kabaros\Documents\Visual Studio 2010\Projects\MenFromMars\Orientations\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kabaros\Documents\Visual Studio 2010\Projects\MenFromMars\Orientations\obj\Debug\MartianRobots.Orientations.dll
+C:\Users\kabaros\Documents\Visual Studio 2010\Projects\MenFromMars\Orientations\obj\Debug\MartianRobots.Orientations.pdb

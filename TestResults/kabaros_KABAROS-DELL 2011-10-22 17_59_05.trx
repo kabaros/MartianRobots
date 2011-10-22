@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="45ee63da-1269-4ba2-8249-a045b833128e" name="kabaros@KABAROS-DELL 2011-10-22 17:59:05" runUser="kabaros-Dell\kabaros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d6f95e15-0651-4403-91b8-21b86f983d5c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kabaros_KABAROS-DELL 2011-10-22 17_59_05">
+      <DeploymentItem filename="c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\Robot\bin\Debug\Robots.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-22T17:59:05.0974174+01:00" queuing="2011-10-22T17:59:05.1014177+01:00" start="2011-10-22T17:59:05.1134184+01:00" finish="2011-10-22T17:59:05.4524378+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\kabaros\documents\visual studio 2010\projects\menfrommars\marstest\bin\debug\marstest.dll" id="41fbd274-9f77-d36b-abfe-bf96156699b5">
+      <Execution id="9fae368d-a637-48fa-854f-5d1d1a81e0de" />
+      <TestMethod codeBase="c:/users/kabaros/documents/visual studio 2010/Projects/MenFromMars/MarsTest/bin/Debug/MarsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsTest.UnitTest1, MarsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestRobots" storage="c:\users\kabaros\documents\visual studio 2010\projects\menfrommars\marstest\bin\debug\marstest.dll" id="5c088620-63e7-0bf0-4a8c-2b4ad903de5b">
+      <Execution id="02febbf4-9881-4fee-be79-c2c59bff2ccd" />
+      <TestMethod codeBase="c:/users/kabaros/documents/visual studio 2010/Projects/MenFromMars/MarsTest/bin/Debug/MarsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsTest.RobotTests, MarsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRobots" />
+    </UnitTest>
+    <UnitTest name="TestMovingLeftAndRight" storage="c:\users\kabaros\documents\visual studio 2010\projects\menfrommars\marstest\bin\debug\marstest.dll" id="fcb59a97-6b5c-6347-0cbf-9764a1e243aa">
+      <Execution id="469207fa-7ac4-4039-8e49-c74bfab790ae" />
+      <TestMethod codeBase="c:/users/kabaros/documents/visual studio 2010/Projects/MenFromMars/MarsTest/bin/Debug/MarsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsTest.OrientationsTest, MarsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMovingLeftAndRight" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="41fbd274-9f77-d36b-abfe-bf96156699b5" executionId="9fae368d-a637-48fa-854f-5d1d1a81e0de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c088620-63e7-0bf0-4a8c-2b4ad903de5b" executionId="02febbf4-9881-4fee-be79-c2c59bff2ccd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fcb59a97-6b5c-6347-0cbf-9764a1e243aa" executionId="469207fa-7ac4-4039-8e49-c74bfab790ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9fae368d-a637-48fa-854f-5d1d1a81e0de" testId="41fbd274-9f77-d36b-abfe-bf96156699b5" testName="TestMethod1" computerName="KABAROS-DELL" duration="00:00:00.0116952" startTime="2011-10-22T17:59:05.1214188+01:00" endTime="2011-10-22T17:59:05.3594324+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9fae368d-a637-48fa-854f-5d1d1a81e0de">
+    </UnitTestResult>
+    <UnitTestResult executionId="02febbf4-9881-4fee-be79-c2c59bff2ccd" testId="5c088620-63e7-0bf0-4a8c-2b4ad903de5b" testName="TestRobots" computerName="KABAROS-DELL" duration="00:00:00.0277370" startTime="2011-10-22T17:59:05.3774335+01:00" endTime="2011-10-22T17:59:05.4124355+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02febbf4-9881-4fee-be79-c2c59bff2ccd">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1 1 E
+3 3 N LOST
+2 3 S
+&gt;. Actual:&lt;1 1 E
+3 3 N LOST
+2 3 S&gt;. </Message>
+          <StackTrace>   at MarsTest.RobotTests.TestRobots() in c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\MarsTest\RobotTest.cs:line 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="469207fa-7ac4-4039-8e49-c74bfab790ae" testId="fcb59a97-6b5c-6347-0cbf-9764a1e243aa" testName="TestMovingLeftAndRight" computerName="KABAROS-DELL" duration="00:00:00.0006180" startTime="2011-10-22T17:59:05.4274363+01:00" endTime="2011-10-22T17:59:05.4324366+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="469207fa-7ac4-4039-8e49-c74bfab790ae">
+    </UnitTestResult>
+  </Results>
+</TestRun>

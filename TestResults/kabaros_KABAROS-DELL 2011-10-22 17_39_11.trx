@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2032f28a-1d16-4fca-b011-e3a2e1720ca8" name="kabaros@KABAROS-DELL 2011-10-22 17:39:11" runUser="kabaros-Dell\kabaros" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d6f95e15-0651-4403-91b8-21b86f983d5c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kabaros_KABAROS-DELL 2011-10-22 17_39_11">
+      <DeploymentItem filename="c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\Robot\bin\Debug\Robots.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-22T17:39:11.6621569+01:00" queuing="2011-10-22T17:39:11.9101710+01:00" start="2011-10-22T17:39:11.9491733+01:00" finish="2011-10-22T17:39:12.4162000+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="3" executed="3" passed="2" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\kabaros\documents\visual studio 2010\projects\menfrommars\marstest\bin\debug\marstest.dll" id="41fbd274-9f77-d36b-abfe-bf96156699b5">
+      <Execution id="958224de-c99a-414f-8c42-1283fc952790" />
+      <TestMethod codeBase="c:/users/kabaros/documents/visual studio 2010/Projects/MenFromMars/MarsTest/bin/Debug/MarsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsTest.UnitTest1, MarsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestRobots" storage="c:\users\kabaros\documents\visual studio 2010\projects\menfrommars\marstest\bin\debug\marstest.dll" id="5c088620-63e7-0bf0-4a8c-2b4ad903de5b">
+      <Execution id="fb16b080-3072-45bf-a16d-65b80fc81f42" />
+      <TestMethod codeBase="c:/users/kabaros/documents/visual studio 2010/Projects/MenFromMars/MarsTest/bin/Debug/MarsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsTest.RobotTests, MarsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRobots" />
+    </UnitTest>
+    <UnitTest name="TestMovingLeftAndRight" storage="c:\users\kabaros\documents\visual studio 2010\projects\menfrommars\marstest\bin\debug\marstest.dll" id="fcb59a97-6b5c-6347-0cbf-9764a1e243aa">
+      <Execution id="f6de5ec7-58bb-4553-ac0d-7e07ce20e79c" />
+      <TestMethod codeBase="c:/users/kabaros/documents/visual studio 2010/Projects/MenFromMars/MarsTest/bin/Debug/MarsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MarsTest.OrientationsTest, MarsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMovingLeftAndRight" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="41fbd274-9f77-d36b-abfe-bf96156699b5" executionId="958224de-c99a-414f-8c42-1283fc952790" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c088620-63e7-0bf0-4a8c-2b4ad903de5b" executionId="fb16b080-3072-45bf-a16d-65b80fc81f42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fcb59a97-6b5c-6347-0cbf-9764a1e243aa" executionId="f6de5ec7-58bb-4553-ac0d-7e07ce20e79c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="958224de-c99a-414f-8c42-1283fc952790" testId="41fbd274-9f77-d36b-abfe-bf96156699b5" testName="TestMethod1" computerName="KABAROS-DELL" duration="00:00:00.0103378" startTime="2011-10-22T17:39:12.0081766+01:00" endTime="2011-10-22T17:39:12.2651913+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="958224de-c99a-414f-8c42-1283fc952790">
+    </UnitTestResult>
+    <UnitTestResult executionId="fb16b080-3072-45bf-a16d-65b80fc81f42" testId="5c088620-63e7-0bf0-4a8c-2b4ad903de5b" testName="TestRobots" computerName="KABAROS-DELL" startTime="2011-10-22T17:39:12.2901928+01:00" endTime="2011-10-22T17:39:12.3091939+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb16b080-3072-45bf-a16d-65b80fc81f42">
+      <Output>
+        <ErrorInfo>
+          <Message>Method MarsTest.RobotTests.MyClassInitialize has wrong signature.  The method should be marked static.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f6de5ec7-58bb-4553-ac0d-7e07ce20e79c" testId="fcb59a97-6b5c-6347-0cbf-9764a1e243aa" testName="TestMovingLeftAndRight" computerName="KABAROS-DELL" duration="00:00:00.0066994" startTime="2011-10-22T17:39:12.3251948+01:00" endTime="2011-10-22T17:39:12.3371955+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6de5ec7-58bb-4553-ac0d-7e07ce20e79c">
+    </UnitTestResult>
+  </Results>
+</TestRun>
