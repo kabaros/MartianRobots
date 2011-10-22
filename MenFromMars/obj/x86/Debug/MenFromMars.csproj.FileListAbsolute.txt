@@ -1,7 +1,0 @@
-c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\MenFromMars\obj\x86\Debug\ResolveAssemblyReference.cache
-c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\MenFromMars\bin\Debug\MenFromMars.exe
-c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\MenFromMars\bin\Debug\MenFromMars.pdb
-c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\MenFromMars\bin\Debug\Robots.dll
-c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\MenFromMars\bin\Debug\Robots.pdb
-c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\MenFromMars\obj\x86\Debug\MenFromMars.exe
-c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\MenFromMars\obj\x86\Debug\MenFromMars.pdb
