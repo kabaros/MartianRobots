@@ -39,11 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Planet\Planet.cs" />
-    <Compile Include="Planet\Position.cs" />
-    <Compile Include="Planet\Surface.cs" />
     <Compile Include="Robot.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Exceptions\Exceptions.csproj">
@@ -54,6 +50,13 @@
       <Project>{9363E8DC-41DB-4202-87B5-98296F3E5771}</Project>
       <Name>Orientations</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Planet\Planet.csproj">
+      <Project>{C07D33AB-BD7C-427C-95FA-5692A7788465}</Project>
+      <Name>Planet</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

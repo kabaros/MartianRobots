@@ -6,10 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using Robots;
 using MartianRobots.Parsers;
 using MartianRobots.ProblemDescription;
 using MartianRobots.Builder;
+using MartianRobots.Robots;
 using MartianRobots.Exceptions;
 
 namespace TestClient
@@ -30,11 +30,11 @@ namespace TestClient
                 var builder = new PlanetBuilder();
                 IParser parser = new InstructionParser();
                 PlanetDescription planetDescription = parser.Parse(tbCommands.Text);
-                Planet planet = builder.BuildPlanet(planetDescription);
-                
-                while (planet.Robots.Count > 0)
+                Queue<Robot> robots = builder.BuildPlanet(planetDescription);
+
+                while (robots.Count > 0)
                 {
-                    Robot robot = planet.Robots.Dequeue();
+                    Robot robot = robots.Dequeue();
                     robot.ExecuteCommands();
                     string result = String.Format("{0} {1} {2}{3}", robot.CurrentPosition.X,
                     robot.CurrentPosition.Y, robot.CurrentOrientation.ToString()[0], ((robot.IsLost) ? " LOST" : ""));

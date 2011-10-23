@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Robots
+namespace MartianRobots.Orientations
 {
+    /// <summary>
+    /// Class representing the different orientations handled by OrientationHandler
+    /// </summary>
     public class Orientation
     {
         Directions Name { get; set; }

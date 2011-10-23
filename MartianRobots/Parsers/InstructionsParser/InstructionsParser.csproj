@@ -40,9 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InstructionsParser.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Exceptions\Exceptions.csproj">
+      <Project>{DBDD834F-F27E-45F9-8DA8-11DA1799DB17}</Project>
+      <Name>Exceptions</Name>
+    </ProjectReference>
     <ProjectReference Include="..\IParser\IParser.csproj">
       <Project>{7C05FBF2-9D89-4E94-82E9-51B69040C50E}</Project>
       <Name>IParser</Name>
@@ -51,6 +54,9 @@
       <Project>{FECCC0CE-D6ED-41C3-9380-95BE95DB254B}</Project>
       <Name>ProblemDescription</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

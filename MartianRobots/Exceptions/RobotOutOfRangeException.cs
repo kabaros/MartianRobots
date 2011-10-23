@@ -2,6 +2,9 @@
 
 namespace MartianRobots.Exceptions
 {
+    /// <summary>
+    /// Exception thrown if robot is initially placed out of the borders of the planet
+    /// </summary>
     public class RobotOutOfRangeException : MartianException
     {
         public RobotOutOfRangeException()

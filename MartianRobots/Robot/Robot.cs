@@ -3,21 +3,42 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using MartianRobots.Exceptions;
+using MartianRobots.Planets;
+using MartianRobots.Orientations;
 
-namespace Robots
+namespace MartianRobots.Robots
 {
     /// <summary>
     /// Robot are the inhabitants of the planet
-    /// Since "God" gave them "freedom of choice" so they hold the responsibility of moving themselves 
+    /// They are responsible of their own movement and they know their current position and orientation
+    /// and they take an instruction string that they will execute when asked to do so
+    /// and they also know the planet where they live (not the other way around)
     /// </summary>
     public class Robot
     {
+        /// <summary>
+        /// Current position of the robot
+        /// </summary>
         public Position CurrentPosition { get; private set; }
+
+        /// <summary>
+        /// Current orientation of the robot
+        /// </summary>
         public Orientation CurrentOrientation { get; private set; }
+
+        /// <summary>
+        /// Instruction string of the robot
+        /// </summary>
         public string InstructionString { get; private set; }
  
+        /// <summary>
+        /// Reference to the planet where the Robot lives
+        /// </summary>
         public Planet Planet { get; set; }
 
+        /// <summary>
+        /// Property where this Robot is lost or not
+        /// </summary>
         public bool IsLost { get; private set; }
 
         /// <summary>
@@ -61,12 +82,9 @@ namespace Robots
             }
         }
 
-        public void ExecuteCommands(string command)
-        {
-            InstructionString = command;
-            ExecuteCommands();
-        }
-
+        /// <summary>
+        /// Executes the commands in the Robot's instruction string
+        /// </summary>
         public void ExecuteCommands()
         {
             foreach (char command in InstructionString)
@@ -114,10 +132,28 @@ namespace Robots
             }
         }
 
+
+        /// <summary>
+        /// Overrides the Robot's instruction string then executes the command
+        /// </summary>
+        /// <param name="command">command to execute</param>
+        public void ExecuteCommands(string command)
+        {
+            InstructionString = command;
+            ExecuteCommands();
+        }
+
+        /// <summary>
+        /// Determines if the Robot is about to fall off the face of the Mars
+        /// </summary>
+        /// <param name="CurrentPosition">Current position of the robot</param>
+        /// <param name="CurrentOrientation">Current orientation of the robot</param>
+        /// <returns></returns>
         private bool WillFallOffMars(Position CurrentPosition, Orientation CurrentOrientation)
         {
             bool willFall = false;
-
+            
+            //checks for edge cases after which the robot will fall
             if (
                 (CurrentOrientation == OrientationsHandler.North && CurrentPosition.Y == Planet.UpperY)
                 || (CurrentOrientation == OrientationsHandler.East && CurrentPosition.X == Planet.UpperX)

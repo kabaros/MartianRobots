@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
-using Robots;
+using MartianRobots.Robots;
 using MartianRobots.Parsers;
 using MartianRobots.ProblemDescription;
 using MartianRobots.Builder;
+using MartianRobots.Planets;
 
 namespace MarsTest
 {
@@ -60,13 +61,13 @@ namespace MarsTest
             {
                 IParser parser = new InstructionParser();
                 PlanetDescription planetDescription = parser.Parse(description.Test);
-                Planet planet = new PlanetBuilder().BuildPlanet(planetDescription);
+                Queue<Robot> robots = new PlanetBuilder().BuildPlanet(planetDescription);
 
                 StringBuilder allResults = new StringBuilder();
 
-                while (planet.Robots.Count > 0)
+                while (robots.Count > 0)
                 {
-                    Robot robot = planet.Robots.Dequeue();
+                    Robot robot = robots.Dequeue();
                     robot.ExecuteCommands();
                     string result = String.Format("{0} {1} {2}{3}", robot.CurrentPosition.X,
                         robot.CurrentPosition.Y, robot.CurrentOrientation.ToString()[0], ((robot.IsLost) ? " LOST" : ""));

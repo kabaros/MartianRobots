@@ -40,7 +40,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PlanetBuilder.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Exceptions\Exceptions.csproj">
@@ -51,10 +50,17 @@
       <Project>{FECCC0CE-D6ED-41C3-9380-95BE95DB254B}</Project>
       <Name>ProblemDescription</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Planet\Planet.csproj">
+      <Project>{C07D33AB-BD7C-427C-95FA-5692A7788465}</Project>
+      <Name>Planet</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Robot\Robots.csproj">
       <Project>{3B0A0EBE-52DA-4AA3-BF2C-32B62527AF3C}</Project>
       <Name>Robots</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

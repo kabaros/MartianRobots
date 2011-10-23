@@ -39,14 +39,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IParser.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IProblemParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ProblemDescription\ProblemDescription.csproj">
       <Project>{FECCC0CE-D6ED-41C3-9380-95BE95DB254B}</Project>
       <Name>ProblemDescription</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

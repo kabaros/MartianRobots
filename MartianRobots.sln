@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robots", "MartianRobots\Robot\Robots.csproj", "{3B0A0EBE-52DA-4AA3-BF2C-32B62527AF3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsTests", "MartianRobots.UnitTests\MarsTests.csproj", "{CE9AC3F3-AA74-472B-8971-E1F4DCB05CEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MartianRobots.Tests", "MartianRobots.UnitTests\MartianRobots.Tests.csproj", "{CE9AC3F3-AA74-472B-8971-E1F4DCB05CEA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "MartianRobots.TestClient\TestClient.csproj", "{DB2D23DC-E40E-47D3-B2B3-FE996CCE04CF}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "MartianRobots\Exceptions\Exceptions.csproj", "{DBDD834F-F27E-45F9-8DA8-11DA1799DB17}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orientations", "MartianRobots\OrientationHandler\Orientations.csproj", "{9363E8DC-41DB-4202-87B5-98296F3E5771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planet", "MartianRobots\Planet\Planet.csproj", "{C07D33AB-BD7C-427C-95FA-5692A7788465}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -122,6 +124,16 @@ Global
 		{9363E8DC-41DB-4202-87B5-98296F3E5771}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{9363E8DC-41DB-4202-87B5-98296F3E5771}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{9363E8DC-41DB-4202-87B5-98296F3E5771}.Release|x86.ActiveCfg = Release|Any CPU
+		{C07D33AB-BD7C-427C-95FA-5692A7788465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07D33AB-BD7C-427C-95FA-5692A7788465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07D33AB-BD7C-427C-95FA-5692A7788465}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C07D33AB-BD7C-427C-95FA-5692A7788465}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C07D33AB-BD7C-427C-95FA-5692A7788465}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C07D33AB-BD7C-427C-95FA-5692A7788465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07D33AB-BD7C-427C-95FA-5692A7788465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07D33AB-BD7C-427C-95FA-5692A7788465}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C07D33AB-BD7C-427C-95FA-5692A7788465}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C07D33AB-BD7C-427C-95FA-5692A7788465}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

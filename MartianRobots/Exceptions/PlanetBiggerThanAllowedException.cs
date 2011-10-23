@@ -2,6 +2,9 @@
 
 namespace MartianRobots.Exceptions
 {
+    /// <summary>
+    /// Exception thrown if the problem definition defines a dimension bigger than 50x50
+    /// </summary>
     public class PlanetBiggerThanAllowedException : MartianException
     {
         public PlanetBiggerThanAllowedException()
