@@ -1,0 +1,10 @@
+C:\Users\kabaros\Documents\Visual Studio 2010\Projects\MenFromMars\Exceptions\bin\Debug\MartianRobots.Exceptions.dll
+C:\Users\kabaros\Documents\Visual Studio 2010\Projects\MenFromMars\Exceptions\bin\Debug\MartianRobots.Exceptions.pdb
+C:\Users\kabaros\Documents\Visual Studio 2010\Projects\MenFromMars\Exceptions\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kabaros\Documents\Visual Studio 2010\Projects\MenFromMars\Exceptions\obj\Debug\MartianRobots.Exceptions.dll
+C:\Users\kabaros\Documents\Visual Studio 2010\Projects\MenFromMars\Exceptions\obj\Debug\MartianRobots.Exceptions.pdb
+C:\Users\kabaros\MartianRobots\MartianRobots\Exceptions\bin\Debug\MartianRobots.Exceptions.dll
+C:\Users\kabaros\MartianRobots\MartianRobots\Exceptions\bin\Debug\MartianRobots.Exceptions.pdb
+C:\Users\kabaros\MartianRobots\MartianRobots\Exceptions\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kabaros\MartianRobots\MartianRobots\Exceptions\obj\Debug\MartianRobots.Exceptions.dll
+C:\Users\kabaros\MartianRobots\MartianRobots\Exceptions\obj\Debug\MartianRobots.Exceptions.pdb

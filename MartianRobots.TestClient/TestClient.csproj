@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DB2D23DC-E40E-47D3-B2B3-FE996CCE04CF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestClient</RootNamespace>
+    <AssemblyName>TestClient</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TestClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestClient.Designer.cs">
+      <DependentUpon>TestClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="TestClient.resx">
+      <DependentUpon>TestClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MartianRobots\Exceptions\Exceptions.csproj">
+      <Project>{DBDD834F-F27E-45F9-8DA8-11DA1799DB17}</Project>
+      <Name>Exceptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MartianRobots\Parsers\InstructionsParser\InstructionsParser.csproj">
+      <Project>{7E8FF862-5F98-46D0-AC53-D5413A5140E4}</Project>
+      <Name>InstructionsParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MartianRobots\Parsers\IParser\IParser.csproj">
+      <Project>{7C05FBF2-9D89-4E94-82E9-51B69040C50E}</Project>
+      <Name>IParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MartianRobots\OrientationHandler\Orientations.csproj">
+      <Project>{9363E8DC-41DB-4202-87B5-98296F3E5771}</Project>
+      <Name>Orientations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MartianRobots\PlanetBuilder\PlanetBuilder.csproj">
+      <Project>{64C8768E-B733-4A17-8E1D-B7DB56BA0596}</Project>
+      <Name>PlanetBuilder</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\MartianRobots\Parsers\ProblemDescription\ProblemDescription.csproj">
+      <Project>{FECCC0CE-D6ED-41C3-9380-95BE95DB254B}</Project>
+      <Name>ProblemDescription</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MartianRobots\Robot\Robots.csproj">
+      <Project>{3B0A0EBE-52DA-4AA3-BF2C-32B62527AF3C}</Project>
+      <Name>Robots</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

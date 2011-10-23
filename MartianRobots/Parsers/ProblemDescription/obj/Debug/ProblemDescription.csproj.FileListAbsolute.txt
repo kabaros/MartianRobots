@@ -1,0 +1,16 @@
+c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\ProblemDescription\obj\Debug\ResolveAssemblyReference.cache
+c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\ProblemDescription\bin\Debug\Robots.dll
+c:\users\kabaros\documents\visual studio 2010\Projects\MenFromMars\ProblemDescription\bin\Debug\Robots.pdb
+C:\Users\kabaros\Documents\visual studio 2010\Projects\MenFromMars\ProblemDescription\bin\Debug\MartianRobots.ProblemDescription.PlanetDescription.dll
+C:\Users\kabaros\Documents\visual studio 2010\Projects\MenFromMars\ProblemDescription\bin\Debug\MartianRobots.ProblemDescription.PlanetDescription.pdb
+C:\Users\kabaros\Documents\visual studio 2010\Projects\MenFromMars\ProblemDescription\bin\Debug\MartianRobots.Exceptions.dll
+C:\Users\kabaros\Documents\visual studio 2010\Projects\MenFromMars\ProblemDescription\bin\Debug\MartianRobots.Exceptions.pdb
+C:\Users\kabaros\Documents\visual studio 2010\Projects\MenFromMars\ProblemDescription\obj\Debug\MartianRobots.ProblemDescription.PlanetDescription.dll
+C:\Users\kabaros\Documents\visual studio 2010\Projects\MenFromMars\ProblemDescription\obj\Debug\MartianRobots.ProblemDescription.PlanetDescription.pdb
+C:\Users\kabaros\Documents\visual studio 2010\Projects\MenFromMars\ProblemDescription\bin\Debug\MartianRobots.Orientations.dll
+C:\Users\kabaros\Documents\visual studio 2010\Projects\MenFromMars\ProblemDescription\bin\Debug\MartianRobots.Orientations.pdb
+C:\Users\kabaros\MartianRobots\MartianRobots\Parsers\ProblemDescription\bin\Debug\MartianRobots.ProblemDescription.PlanetDescription.dll
+C:\Users\kabaros\MartianRobots\MartianRobots\Parsers\ProblemDescription\bin\Debug\MartianRobots.ProblemDescription.PlanetDescription.pdb
+C:\Users\kabaros\MartianRobots\MartianRobots\Parsers\ProblemDescription\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kabaros\MartianRobots\MartianRobots\Parsers\ProblemDescription\obj\Debug\MartianRobots.ProblemDescription.PlanetDescription.dll
+C:\Users\kabaros\MartianRobots\MartianRobots\Parsers\ProblemDescription\obj\Debug\MartianRobots.ProblemDescription.PlanetDescription.pdb
