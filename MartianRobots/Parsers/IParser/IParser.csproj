@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IProblemParser.cs" />
+    <Compile Include="IParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ProblemDescription\ProblemDescription.csproj">
