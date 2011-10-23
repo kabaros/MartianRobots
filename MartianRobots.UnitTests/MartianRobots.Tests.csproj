@@ -51,7 +51,6 @@
   <ItemGroup>
     <Compile Include="OrientationsTest.cs" />
     <Compile Include="RobotTest.cs" />
-    <Compile Include="ParserTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MartianRobots\Exceptions\Exceptions.csproj">
